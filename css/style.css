@@ -20,22 +20,16 @@ a {
 /*Header*/
 
 .header {
-  width: 100%;
-  padding: 5px;
-  background-color: black;
-  color: #2c3a47;
+  background-color: #252f38;
 }
 .logo {
-  text-align: center;
-  display: block;
-  width: 100%;
   transition: all 5s;
 }
 
 .logo .logoimg {
   width: 0px;
   height: 0px;
-  background: url("../images/status4u3.png") no-repeat;
+  background: url("../images/status4usmall.png") no-repeat;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
@@ -73,7 +67,7 @@ a {
   height: 200px;
   /* width: auto; */
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 25px;
   transition: all 0.5s ease-in-out;
   /*box-shadow: 0 2px 4px 0 rgba(231, 76, 60, 0.1), 0 1px 5px 0 rgba(231, 76, 60, 0.10);*/
 }
@@ -209,24 +203,23 @@ a {
 
 /*Footer*/
 .footer {
-  width: 100%;
+  /* width: 100%; */
   background-color: #252f38;
   padding: 20px;
   color: #fff !important;
-  overflow: auto;
 }
 
 .footer a {
   color: #fff !important;
   font-weight: 300;
 }
-.footer-left {
+/* .footer-left {
   float: left;
-}
+} */
 
-.footer-right {
+/* .footer-right {
   float: right;
-}
+} */
 
 .footer-left ul {
   list-style-type: none;
