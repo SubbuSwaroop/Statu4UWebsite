@@ -8,7 +8,6 @@ html {
   outline: 0;
 }
 body {
-  background-color: #fff;
   font-family: "Roboto", sans-serif;
 }
 
@@ -38,11 +37,6 @@ a {
   transition: all 0.5s ease-in-out;
 }
 
-/* .logo .logoimg:hover {
-  background: url("../images/status4u.png") no-repeat;
-} */
-/*content*/
-
 .container {
   color: #2c3a47;
   padding-top: 20px;
@@ -58,7 +52,10 @@ a {
   font-weight: 500;
   font-size: 17px;
 }
-
+#contentContainer {
+  height: 0px;
+  width: 100%;
+}
 .row .box {
   color: #2c3a47;
   position: relative;
@@ -214,17 +211,11 @@ a {
   color: #fff !important;
   font-weight: 300;
 }
-/* .footer-left {
-  float: left;
-} */
-
-/* .footer-right {
-  float: right;
-} */
 
 .footer-left ul {
   list-style-type: none;
 }
+
 /*Mobile */
 @media screen and (max-width: 768px) {
   .container {
@@ -235,5 +226,15 @@ a {
 @media screen and (min-width: 768px) {
   .container {
     grid-template-columns: 20% 20% 20%;
+  }
+}
+
+/*Animations */
+@keyframes slidein {
+  0% {
+    right: -1000px;
+  }
+  100% {
+    right: 0px;
   }
 }
