@@ -11,9 +11,8 @@ $(document).ready(function() {
   $(".sarcastic").css("opacity", "1");
   $(".religious").css("opacity", "1");
   $(".box").click(function() {
-    alert(this.classList[1]);
-    $("#everything").hide();
     let className = this.classList[1];
+    $("#everything").hide();
     $("#contentContainer").load(className + ".html");
   });
 });
